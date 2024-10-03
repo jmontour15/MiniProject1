@@ -1,0 +1,14 @@
+arch_name: Hybrid
+loss_fxn: mse
+metric: r2score
+metric_kwargs: {}
+model_name: Hybrid_regression
+optimizer: adam
+optimizer_kwargs: {}
+optimizer_lr: 0.001
+save_hyperparams: true
+scheduler: reduce_lr_on_plateau
+scheduler_kwargs: {}
+scheduler_monitor: val_loss_epoch
+seed: null
+task: regression
